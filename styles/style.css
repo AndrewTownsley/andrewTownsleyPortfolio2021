@@ -1,0 +1,39 @@
+.hero {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: lightblue;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-main {
+  background-color: #350080;
+  color: #fff;
+}
+
+.btn-main:hover {
+  background-color: #5604ca;
+}
+/*# sourceMappingURL=style.css.map */

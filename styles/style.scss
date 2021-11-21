@@ -1,0 +1,28 @@
+@import "./hero";
+@import "./variables";
+
+@mixin flexCenter($direction, $margin, $padding) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: $direction;
+  margin: $margin;
+  padding: $padding;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // width: 100% - 50%;
+}
+
+// .main {
+//   @include flexCenter(column);
+// }
+
+.btn-main {
+  background-color: $primaryBtnBg;
+  color: $primaryBtnClr;
+  &:hover {
+    background-color: $primaryBtnBgHov;
+  }
+}
