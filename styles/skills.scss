@@ -1,0 +1,39 @@
+@import "./variables";
+
+.skills {
+  margin: 4rem 0;
+  h2 {
+    &::after {
+      content: "";
+      display: block;
+      position: relative;
+      top: -15px;
+      margin-left: 100px;
+      height: 1px;
+      background-color: $AccentDarkBlue;
+      width: 170px;
+    }
+  }
+  span {
+    font-size: $textS;
+  }
+  ul {
+    li {
+      font-size: $textS;
+      color: $AccentLightBlue;
+      padding-bottom: 0.8rem;
+      &::before {
+        content: "";
+        height: 9px;
+        width: 9px;
+        top: -3px;
+        margin-right: 10px;
+        position: relative;
+        display: inline-block;
+        border-radius: 8px;
+        color: $AccentClrPink;
+        background-color: $AccentClrPink;
+      }
+    }
+  }
+}

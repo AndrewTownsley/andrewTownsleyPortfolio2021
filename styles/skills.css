@@ -1,0 +1,38 @@
+.skills {
+  margin: 4rem 0;
+}
+
+.skills h2::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  margin-left: 100px;
+  height: 1px;
+  background-color: #4e53a5;
+  width: 170px;
+}
+
+.skills span {
+  font-size: 0.9rem;
+}
+
+.skills ul li {
+  font-size: 0.9rem;
+  color: #68bbe5;
+  padding-bottom: 0.8rem;
+}
+
+.skills ul li::before {
+  content: "";
+  height: 9px;
+  width: 9px;
+  top: -3px;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+  color: #e2008a;
+  background-color: #e2008a;
+}
+/*# sourceMappingURL=skills.css.map */

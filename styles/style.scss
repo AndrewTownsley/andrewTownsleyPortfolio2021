@@ -1,5 +1,6 @@
 @import "./hero";
 @import "./variables";
+@import "./skills";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 @mixin flexCenter($direction, $margin, $padding) {
@@ -29,6 +30,7 @@ a {
 }
 
 p {
+  padding: 1.5rem 0;
   color: $TextClrSecondary;
   font-size: $textS;
 }
@@ -46,7 +48,7 @@ ul {
 
 .btn {
   outline: none;
-  border: 2px solid $AccentYlw;
+  border: 2px solid $AccentLightBlue;
   font-weight: 700;
   font-size: $textMS;
   color: $AccentYlw;
