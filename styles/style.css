@@ -16,7 +16,7 @@
 .hero-text h2 {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #c5c6c7;
+  color: #68bbe5;
   border-bottom: 2px solid #e2008a;
   margin-bottom: 0.5rem;
   width: -webkit-max-content;
@@ -64,6 +64,10 @@ i {
 
 a {
   text-decoration: none;
+}
+
+p {
+  color: #c5c6c7;
 }
 
 h1 {
