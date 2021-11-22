@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <script defer src="app.js"></script>
     <title>Portfolio 2021</title>
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <script src="./feather.js"></script>
+    <script defer src="app.js"></script>
 </head>
 <body>
     <section class="main">
         <!------------------------------------------- Nav / Header -->
         <section class="hero">
         <nav class="navbar">
+            <header>
+                <i data-feather="menu"></i>
+            </header>
             <ul>
                 <li><a href="#">Skills</a></li>
-                <!-- <li><a href="#">Services</a></li> -->
+                <li><a href="#">Services</a></li>
                 <li><a href="#">My Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
             <div class="hero-text">
                 <h1>Andrew Townsley</h1>
-                <h3>Fullstack Web Developer</h3>
-                <h3>Bootcamp Grad</h3>
+                <ul>
+                    <h2>web developer</h2>
+                    <h2>bootcamp grad</h2>
+                    <h2>freelance websites</h2>
+                </ul>
                 <p>Based in Denver, Colorado.  Building for the web with Javascript, as well as 
                     <span>effective, modern websites for Professionals and Small Businesses</span>
                 </p>
@@ -49,7 +57,11 @@
                 </ul>
             </div>
         </section>
+
+        <!-------------------------------------------- Services  -->
         <!-- <section class="services">
+            <h3>Services</h3>
+            <p></p>
         </section> -->
         <!-------------------------------------------- Projects  -->
         <section class="projects">
@@ -61,7 +73,6 @@
                     <a href="#">Github Link</a>
                 </article>
                 <article class="project-card">
-                    <button>Hello Button</button>
                     <h5>project name</h5>
                     <img src="#" alt="project-img">
                     <a href="#">Github Link</a>
@@ -83,9 +94,16 @@
                 </article>
             </div>
         </section>
-        <section class="contact">
-
-        </section>
+        <footer class="footer">
+            <h3>Get in touch</h3>
+            <p>Feel free to send me an Email to discuss a project or opportunity</p>
+            <ul class="footer-icons">
+                <li><a href="#"><i data-feather="linkedin"></i></a></li>
+                <li><a href="#"><i data-feather="github"></i></a></li>
+                <li><a href="#"><i data-feather="mail"></i></a></li>
+            </ul>
+        </footer>
     </section>
+    <script>feather.replace()</script>
     </body>
 </html>

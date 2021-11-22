@@ -2,25 +2,50 @@
   height: 100vh;
 }
 
-.navbar {
-  background-color: lightblue;
+.hero-text h1 {
+  font-size: 1.5rem;
+  padding: 2rem 0 1rem 0;
+  color: #fff;
+}
+
+.hero-text ul {
+  padding-bottom: 2rem;
+}
+
+.hero-text h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #c5c6c7;
+  border-bottom: 2px solid #e2008a;
+  margin-bottom: 0.5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.hero-text p {
+  font-size: 0.9rem;
 }
 
 .navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1rem;
+  display: none;
 }
 
-.navbar ul li {
-  list-style-type: none;
-}
-
-.navbar ul li a {
-  text-decoration: none;
+@media (min-width: 700px) {
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem;
+  }
+  .navbar ul li {
+    list-style-type: none;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=hero.css.map */

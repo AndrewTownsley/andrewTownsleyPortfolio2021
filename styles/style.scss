@@ -1,5 +1,6 @@
 @import "./hero";
 @import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 @mixin flexCenter($direction, $margin, $padding) {
   display: flex;
@@ -10,14 +11,45 @@
   padding: $padding;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  // width: 100% - 50%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-// .main {
-//   @include flexCenter(column);
-// }
+i {
+  color: $AccentLightBlue;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  background-color: $AccentYlw;
+  margin: 1rem 0;
+}
+
+body {
+  font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // width: 100%;
+  background-color: $BgPrimary;
+  color: $TextClrPrimary;
+  letter-spacing: 1px;
+}
+
+.main {
+  margin: 1rem;
+}
 
 .btn-main {
   background-color: $primaryBtnBg;

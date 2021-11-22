@@ -1,17 +1,45 @@
+@import "./variables";
+
 .hero {
   height: 100vh;
 }
 
-.navbar {
-  background-color: lightblue;
+.hero-text {
+  h1 {
+    font-size: 1.5rem;
+    padding: 2rem 0 1rem 0;
+    color: $TextClrPrimary;
+  }
   ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    li {
-      list-style-type: none;
-      a {
-        text-decoration: none;
+    padding-bottom: 2rem;
+  }
+  h2 {
+    font-size: $textM;
+    font-weight: 400;
+    color: $TextClrSecondary;
+    border-bottom: 2px solid $AccentClrPink;
+    margin-bottom: 0.5rem;
+    width: max-content;
+  }
+  p {
+    font-size: $textS;
+  }
+}
+
+.navbar {
+  ul {
+    display: none;
+  }
+  @media (min-width: 700px) {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      li {
+        list-style-type: none;
+        a {
+          text-decoration: none;
+        }
       }
     }
   }
