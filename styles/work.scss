@@ -8,11 +8,21 @@
       content: "";
       display: block;
       position: absolute;
-      top: -15px;
+      top: 20px;
       margin-left: 145px;
       height: 1px;
       background-color: $AccentDarkBlue;
       width: 135px;
     }
+  }
+}
+
+.project-card {
+  background-color: $BgSecondary;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  h5 {
+    margin-bottom: 1rem;
   }
 }

@@ -72,14 +72,18 @@
 }
 
 .skills {
-  margin: 4rem 0;
+  margin: 0;
+}
+
+.skills h2 {
+  position: relative;
 }
 
 .skills h2::after {
   content: "";
   display: block;
-  position: relative;
-  top: -15px;
+  position: absolute;
+  top: 20px;
   margin-left: 100px;
   height: 1px;
   background-color: #4e53a5;
@@ -111,17 +115,29 @@
 
 .work h2 {
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .work h2::after {
   content: "";
   display: block;
-  position: relative;
-  top: -15px;
+  position: absolute;
+  top: 20px;
   margin-left: 145px;
   height: 1px;
   background-color: #4e53a5;
   width: 135px;
+}
+
+.project-card {
+  background-color: #1e1e20;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.project-card h5 {
+  margin-bottom: 1rem;
 }
 
 * {
@@ -214,5 +230,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 /*# sourceMappingURL=style.css.map */
