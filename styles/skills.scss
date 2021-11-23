@@ -3,15 +3,16 @@
 .skills {
   margin: 4rem 0;
   h2 {
+    position: relative;
     &::after {
       content: "";
       display: block;
-      position: relative;
+      position: absolute;
       top: -15px;
       margin-left: 100px;
       height: 1px;
       background-color: $AccentDarkBlue;
-      width: 170px;
+      width: 180px;
     }
   }
   span {

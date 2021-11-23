@@ -1,6 +1,7 @@
 @import "./hero";
 @import "./variables";
 @import "./skills";
+@import "./work";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 @mixin flexCenter($direction, $margin, $padding) {
@@ -51,7 +52,7 @@ ul {
   border: 2px solid $AccentLightBlue;
   font-weight: 700;
   font-size: $textMS;
-  color: $AccentYlw;
+  color: $AccentLightBlue;
   padding: 1rem 2rem;
   border-radius: 4px;
   background-color: transparent;
@@ -68,4 +69,30 @@ body {
 
 .main {
   margin: 1rem;
+}
+
+.footer {
+  margin: 2rem 0 0 0;
+  h2 {
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 60%;
+      margin-right: 1rem;
+      margin-left: 10px;
+      height: 1px;
+      background-color: $AccentDarkBlue;
+      width: 100px;
+    }
+  }
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }

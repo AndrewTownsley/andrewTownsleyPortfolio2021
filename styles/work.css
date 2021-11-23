@@ -1,0 +1,16 @@
+.work h2 {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.work h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15px;
+  margin-left: 145px;
+  height: 1px;
+  background-color: #4e53a5;
+  width: 135px;
+}
+/*# sourceMappingURL=work.css.map */

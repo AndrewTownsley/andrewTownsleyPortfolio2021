@@ -2,15 +2,19 @@
   margin: 4rem 0;
 }
 
+.skills h2 {
+  position: relative;
+}
+
 .skills h2::after {
   content: "";
   display: block;
-  position: relative;
+  position: absolute;
   top: -15px;
   margin-left: 100px;
   height: 1px;
   background-color: #4e53a5;
-  width: 170px;
+  width: 180px;
 }
 
 .skills span {
