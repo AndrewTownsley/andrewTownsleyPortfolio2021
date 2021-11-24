@@ -306,4 +306,14 @@ body {
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
+
+.footer-icons svg {
+  height: 24px;
+  width: 24px;
+}
+
+.footer-copyright p {
+  padding-bottom: 0;
+  color: #999;
+}
 /*# sourceMappingURL=style.css.map */

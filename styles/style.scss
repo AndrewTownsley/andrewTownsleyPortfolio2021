@@ -100,4 +100,15 @@ body {
   align-items: center;
   margin-bottom: 2rem;
   padding: 0 1rem;
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.footer-copyright {
+  p {
+    padding-bottom: 0;
+    color: #999;
+  }
 }
