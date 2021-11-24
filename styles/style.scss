@@ -57,6 +57,7 @@ ul {
   border-radius: 4px;
   background-color: transparent;
   margin: 1rem 0;
+  cursor: pointer;
 }
 
 body {
@@ -87,6 +88,9 @@ body {
       background-color: $AccentDarkBlue;
       width: 100px;
     }
+  }
+  p {
+    margin: 2rem 0;
   }
 }
 

@@ -2,7 +2,7 @@
 
 .work {
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     position: relative;
     &::after {
       content: "";
@@ -29,6 +29,25 @@
   border-radius: 4px;
   h5 {
     margin-bottom: 1rem;
+  }
+  ul {
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: $TextClrSecondary;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  svg {
+    margin-right: 10px;
+    color: $AccentLightBlue;
   }
 }
 .desktop-img {
