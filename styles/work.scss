@@ -18,11 +18,32 @@
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: $BgSecondary;
+  max-width: 90vw;
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 4px;
   h5 {
     margin-bottom: 1rem;
   }
+}
+.desktop-img {
+  height: 195px;
+  width: 255px;
+}
+.mobile-img {
+  height: 300;
+  width: 168px;
+}
+.pexels-img {
+  width: 255px;
+  height: 164px;
+}
+.notes-img {
+  width: 255px;
+  height: 172px;
 }
