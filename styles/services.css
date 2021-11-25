@@ -1,0 +1,16 @@
+.services h2 {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.services h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  margin-left: 145px;
+  height: 1px;
+  background-color: #4e53a5;
+  width: 135px;
+}
+/*# sourceMappingURL=services.css.map */

@@ -209,6 +209,22 @@
   height: 172px;
 }
 
+.services h2 {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.services h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  margin-left: 145px;
+  height: 1px;
+  background-color: #4e53a5;
+  width: 135px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -315,5 +331,6 @@ body {
 .footer-copyright p {
   padding-bottom: 0;
   color: #999;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+@import "./variables";
+
+.services {
+  h2 {
+    margin-bottom: 4rem;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      margin-left: 145px;
+      height: 1px;
+      background-color: $AccentDarkBlue;
+      width: 135px;
+    }
+  }
+}
