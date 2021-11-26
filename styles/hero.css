@@ -69,4 +69,48 @@
     text-decoration: none;
   }
 }
+
+.hero-email {
+  background-color: #1e1e20;
+  padding: 5px;
+  margin: 50px 0 0 0;
+  border-radius: 3px;
+}
+
+@media (min-width: 700px) {
+  .hero nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    padding: 1rem 0 0 0;
+  }
+  .hero nav ul .last-li {
+    border-right: none;
+    padding-right: 0;
+  }
+  .hero nav ul li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #68bbe5;
+  }
+  .hero nav ul li a {
+    color: #c5c6c7;
+  }
+  .hero nav header {
+    display: none;
+  }
+  .hero .hero-text {
+    margin: 0rem 2rem 2rem 2rem;
+    padding-top: 8rem;
+  }
+  .hero .hero-text h1 {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=hero.css.map */

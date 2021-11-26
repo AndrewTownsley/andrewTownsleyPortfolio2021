@@ -93,4 +93,21 @@
   width: 255px;
   height: 172px;
 }
+
+@media (min-width: 750px) {
+  .work h2 {
+    margin-bottom: 4rem;
+    position: relative;
+  }
+  .work h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    margin-left: 150px;
+    height: 1px;
+    background-color: #4e53a5;
+    width: 200px;
+  }
+}
 /*# sourceMappingURL=work.css.map */

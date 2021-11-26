@@ -53,3 +53,45 @@
     }
   }
 }
+
+.hero-email {
+  background-color: $BgSecondary;
+  padding: 5px;
+  margin: 50px 0 0 0;
+  border-radius: 3px;
+}
+
+@media (min-width: 700px) {
+  .hero {
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding: 1rem 0 0 0;
+        .last-li {
+          border-right: none;
+          padding-right: 0;
+        }
+        li {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          border-right: 1px solid $AccentLightBlue;
+          a {
+            color: $TextClrSecondary;
+          }
+        }
+      }
+      header {
+        display: none;
+      }
+    }
+    .hero-text {
+      margin: 0rem 2rem 2rem 2rem;
+      padding-top: 8rem;
+      h1 {
+        font-size: $textLrg;
+      }
+    }
+  }
+}

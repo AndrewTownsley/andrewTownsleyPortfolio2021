@@ -39,4 +39,20 @@
   color: #e2008a;
   background-color: #e2008a;
 }
+
+@media (min-width: 750px) {
+  .skills h2 {
+    position: relative;
+  }
+  .skills h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    margin-left: 105px;
+    height: 1px;
+    background-color: #4e53a5;
+    width: 200px;
+  }
+}
 /*# sourceMappingURL=skills.css.map */

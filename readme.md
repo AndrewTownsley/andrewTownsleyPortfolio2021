@@ -1,5 +1,7 @@
-**_ DO NOT JUST WING THE DESIGN. ONLY COPY THE DESIGN OF OTHER SITES. _**
+1.  Contact / Info form for website work.
 
-SASS
-Animations / Transitions
-Ally
+2.  Ally.
+
+3.  Transitions / Animations.
+
+4.  Static Site Generator.
