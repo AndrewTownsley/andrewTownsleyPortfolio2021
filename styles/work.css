@@ -110,4 +110,18 @@
     width: 200px;
   }
 }
+
+@media (min-width: 1000px) {
+  .work {
+    margin: 0rem 8rem 2rem 8rem;
+    padding-top: 8rem;
+  }
+  .work h2 {
+    margin-bottom: 4rem;
+    position: relative;
+  }
+  .work h2::after {
+    width: 500px;
+  }
+}
 /*# sourceMappingURL=work.css.map */

@@ -31,3 +31,16 @@
     }
   }
 }
+
+@media (min-width: 1000px) {
+  .services {
+    margin: 0rem 8rem 2rem 8rem;
+    padding-top: 8rem;
+    h2 {
+      position: relative;
+      &::after {
+        width: 500px;
+      }
+    }
+  }
+}

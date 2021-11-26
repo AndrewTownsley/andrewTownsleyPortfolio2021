@@ -64,6 +64,8 @@
 @media (min-width: 700px) {
   .hero {
     nav {
+      display: flex;
+      justify-content: right;
       ul {
         display: flex;
         align-items: center;
@@ -79,6 +81,10 @@
           border-right: 1px solid $AccentLightBlue;
           a {
             color: $TextClrSecondary;
+            transition: ease 0.3s;
+            &:hover {
+              color: #fff;
+            }
           }
         }
       }
@@ -92,6 +98,15 @@
       h1 {
         font-size: $textLrg;
       }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    .hero-text {
+      margin: 0rem 8rem 8rem 8rem;
+      padding-top: 5rem;
     }
   }
 }

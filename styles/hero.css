@@ -78,6 +78,14 @@
 }
 
 @media (min-width: 700px) {
+  .hero nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
   .hero nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -101,6 +109,11 @@
   }
   .hero nav ul li a {
     color: #c5c6c7;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+  }
+  .hero nav ul li a:hover {
+    color: #fff;
   }
   .hero nav header {
     display: none;
@@ -111,6 +124,13 @@
   }
   .hero .hero-text h1 {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero .hero-text {
+    margin: 0rem 8rem 8rem 8rem;
+    padding-top: 5rem;
   }
 }
 /*# sourceMappingURL=hero.css.map */
