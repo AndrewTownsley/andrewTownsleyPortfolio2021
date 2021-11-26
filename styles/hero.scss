@@ -33,6 +33,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    svg {
+      color: $AccentLightBlue;
+      height: 2rem;
+      width: 2rem;
+    }
   }
   header img {
     width: 50px;
@@ -52,6 +57,31 @@
       }
     }
   }
+}
+
+.mobile-menu {
+  position: absolute;
+  background-color: $BgSecondary;
+  top: 10%;
+  width: 80%;
+  height: 80vh;
+  border-top-right-radius: 4px;
+  transition: all ease-in-out 0.3s;
+  transform: translateX(-125%);
+  ul {
+    width: 100%;
+    li {
+      text-align: center;
+      padding: 1rem;
+      a {
+        color: $TextClrSecondary;
+      }
+    }
+  }
+}
+
+.mobile-menu.open {
+  transform: translateX(-7%);
 }
 
 .hero-email {
