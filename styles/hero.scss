@@ -68,13 +68,21 @@
   border-top-right-radius: 4px;
   transition: all ease-in-out 0.3s;
   transform: translateX(-125%);
+  div {
+    text-align: right;
+    i {
+      padding: 1rem;
+    }
+  }
   ul {
     width: 100%;
+    padding-top: 100px;
     li {
       text-align: center;
       padding: 1rem;
       a {
         color: $TextClrSecondary;
+        text-decoration: none;
       }
     }
   }
@@ -123,7 +131,6 @@
       }
     }
     .hero-text {
-      margin: 0rem 2rem 2rem 2rem;
       padding-top: 8rem;
       h1 {
         font-size: $textLrg;

@@ -111,9 +111,22 @@ body {
   align-items: center;
   margin-bottom: 2rem;
   padding: 0 1rem;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    padding: 5px 5px 0 5px;
+    border-radius: 4px;
+    &:hover {
+      background-color: rgba(226, 0, 138, 0.3);
+    }
+  }
   svg {
     height: 24px;
     width: 24px;
+    // padding: 5px;
   }
 }
 
@@ -151,5 +164,13 @@ body {
   }
   .footer-icons {
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 550px) {
+  .footer {
+    ul {
+      margin: 0 auto 2rem auto;
+    }
   }
 }

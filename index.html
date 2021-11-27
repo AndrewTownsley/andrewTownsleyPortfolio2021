@@ -10,12 +10,14 @@
     <script defer src="app.js"></script>
 </head>
 <body>
-    <section class="main">
+    <section class="main" id="main">
         <!------------------------------------------- Nav / Header -->
         <section class="hero">
-        <nav class="navbar">
+        <nav class="navbar" id="navBar">
             <header>
-                <i data-feather="menu" id="mobile-menu-btn"></i>
+                <div id="mobile-menu-btn">
+                    <i data-feather="menu"></i>
+                </div>
                 <img src="./Images/profile-pic-resized.png" alt="profile pic of Andrew">
             </header>
             <ul>
@@ -26,6 +28,9 @@
             </ul>
         </nav>
         <div class="mobile-menu" id="mobileMenu">
+            <div>
+                <i id="mobileMenuCloseBtn" height="40px" width="40px" fill="#c5c6c7" data-feather="x"></i>
+            </div>
             <ul>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#services">Services</a></li>
@@ -33,7 +38,7 @@
                 <li class=""><a href="#footer">Contact</a></li>
             </ul>
         </div>
-            <div class="hero-text">
+            <div class="hero-text" id="heroText">
                 <h1>Andrew Townsley</h1>
                 <ul>
                     <h2>web developer</h2>

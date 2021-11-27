@@ -89,8 +89,17 @@
           transform: translateX(-125%);
 }
 
+.mobile-menu div {
+  text-align: right;
+}
+
+.mobile-menu div i {
+  padding: 1rem;
+}
+
 .mobile-menu ul {
   width: 100%;
+  padding-top: 100px;
 }
 
 .mobile-menu ul li {
@@ -100,6 +109,7 @@
 
 .mobile-menu ul li a {
   color: #c5c6c7;
+  text-decoration: none;
 }
 
 .mobile-menu.open {
@@ -156,7 +166,6 @@
     display: none;
   }
   .hero .hero-text {
-    margin: 0rem 2rem 2rem 2rem;
     padding-top: 8rem;
   }
   .hero .hero-text h1 {
