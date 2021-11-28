@@ -126,6 +126,9 @@
 }
 
 @media (min-width: 700px) {
+  .hero {
+    height: 75vh;
+  }
   .hero nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -174,7 +177,10 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
+  .hero {
+    height: 100vh;
+  }
   .hero .hero-text {
     margin: 0rem 8rem 8rem 8rem;
     padding-top: 5rem;
@@ -549,6 +555,8 @@ body {
 .footer-icons li {
   padding: 5px 5px 0 5px;
   border-radius: 4px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .footer-icons li:hover {
