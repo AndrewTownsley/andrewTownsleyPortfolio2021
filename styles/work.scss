@@ -19,6 +19,7 @@
 }
 
 .project-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,6 +50,38 @@
   svg {
     margin-right: 10px;
     color: $AccentLightBlue;
+  }
+  .project-card-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #101011, $alpha: 1.0);
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    h5 {
+      font-size: $textML;
+    }
+    a {
+      color: $AccentLightBlue;
+    }
+    .overlay-btn {
+      background-color: #e2008a;
+      border: 2px solid #e2008a;
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        background-color: #c3077b;
+      }
+    }
+    &:hover {
+      opacity: 0.95;
+    }
   }
 }
 .desktop-img {
