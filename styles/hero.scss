@@ -59,6 +59,10 @@
   }
 }
 
+.header-icon {
+  display: none;
+}
+
 .mobile-menu {
   position: absolute;
   background-color: $BgSecondary;
@@ -101,10 +105,10 @@
 
 @media (min-width: 700px) {
   .hero {
-    height: 75vh;
+    height: 100vh;
     nav {
       display: flex;
-      justify-content: right;
+      justify-content: space-between;
       ul {
         display: flex;
         align-items: center;
@@ -132,11 +136,14 @@
       }
     }
     .hero-text {
-      padding-top: 8rem;
+      padding-top: 3rem;
       h1 {
         font-size: $textLrg;
       }
     }
+  }
+  .header-icon {
+    display: block;
   }
 }
 
@@ -145,7 +152,7 @@
     height: 100vh;
     .hero-text {
       margin: 0rem 8rem 8rem 8rem;
-      padding-top: 5rem;
+      padding-top: 3rem;
     }
   }
 }

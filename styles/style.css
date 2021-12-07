@@ -77,6 +77,10 @@
   }
 }
 
+.header-icon {
+  display: none;
+}
+
 .mobile-menu {
   position: absolute;
   background-color: #1e1e20;
@@ -127,15 +131,15 @@
 
 @media (min-width: 700px) {
   .hero {
-    height: 75vh;
+    height: 100vh;
   }
   .hero nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .hero nav ul {
     display: -webkit-box;
@@ -170,10 +174,13 @@
     display: none;
   }
   .hero .hero-text {
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
   .hero .hero-text h1 {
     font-size: 2rem;
+  }
+  .header-icon {
+    display: block;
   }
 }
 
@@ -183,7 +190,7 @@
   }
   .hero .hero-text {
     margin: 0rem 8rem 8rem 8rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 }
 
@@ -229,7 +236,27 @@
   background-color: #e2008a;
 }
 
+.skills .skills-text-img img {
+  display: none;
+}
+
 @media (min-width: 750px) {
+  .skills .skills-text-img {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .skills .skills-text-img img {
+    height: 233px;
+    width: 175px;
+    display: block;
+    margin-top: 2rem;
+    border-radius: 4px;
+    -webkit-filter: grayscale(100%) contrast(1);
+            filter: grayscale(100%) contrast(1);
+  }
   .skills h2 {
     position: relative;
   }
@@ -256,6 +283,10 @@
   .skills h2::after {
     width: 500px;
   }
+}
+
+.work {
+  margin-top: 2rem;
 }
 
 .work h2 {
@@ -355,6 +386,9 @@
 }
 
 @media (min-width: 750px) {
+  .work {
+    margin-top: 2rem;
+  }
   .work h2 {
     margin-bottom: 4rem;
     position: relative;
@@ -578,6 +612,10 @@ body {
   .main {
     margin: 0rem 3rem 2rem 3rem;
   }
+  .footer h2::after {
+    width: 200px;
+    left: 30%;
+  }
   .footer-copyright {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -598,7 +636,7 @@ body {
   }
   .footer h2::after {
     width: 500px;
-    left: 22%;
+    left: 30%;
     margin-right: 1rem;
     margin-left: 10px;
   }

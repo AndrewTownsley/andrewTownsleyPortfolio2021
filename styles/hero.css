@@ -76,6 +76,10 @@
   }
 }
 
+.header-icon {
+  display: none;
+}
+
 .mobile-menu {
   position: absolute;
   background-color: #1e1e20;
@@ -126,15 +130,15 @@
 
 @media (min-width: 700px) {
   .hero {
-    height: 75vh;
+    height: 100vh;
   }
   .hero nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .hero nav ul {
     display: -webkit-box;
@@ -169,10 +173,13 @@
     display: none;
   }
   .hero .hero-text {
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
   .hero .hero-text h1 {
     font-size: 2rem;
+  }
+  .header-icon {
+    display: block;
   }
 }
 
@@ -182,7 +189,7 @@
   }
   .hero .hero-text {
     margin: 0rem 8rem 8rem 8rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 }
 /*# sourceMappingURL=hero.css.map */

@@ -37,7 +37,27 @@
       }
     }
   }
+
+  .skills-text-img {
+    img {
+      display: none;
+    }
+  }
+
   @media (min-width: 750px) {
+    .skills-text-img {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: 70% 30%;
+      img {
+        height: 233px;
+        width: 175px;
+        display: block;
+        margin-top: 2rem;
+        border-radius: 4px;
+        filter: grayscale(100%) contrast(1);
+      }
+    }
     h2 {
       position: relative;
       &::after {

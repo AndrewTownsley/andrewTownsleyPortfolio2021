@@ -1,6 +1,7 @@
 @import "./variables";
 
 .work {
+  margin-top: 2rem;
   h2 {
     margin-bottom: 4rem;
     position: relative;
@@ -69,6 +70,7 @@
 
 @media (min-width: 750px) {
   .work {
+    margin-top: 2rem;
     h2 {
       margin-bottom: 4rem;
       position: relative;

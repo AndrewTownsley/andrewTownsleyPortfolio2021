@@ -143,6 +143,14 @@ body {
   .main {
     margin: 0rem 3rem 2rem 3rem;
   }
+  .footer {
+    h2 {
+      &::after {
+        width: 200px;
+        left: 30%;
+      }
+    }
+  }
   .footer-copyright {
     display: flex;
     justify-content: center;
@@ -157,7 +165,7 @@ body {
       position: relative;
       &::after {
         width: 500px;
-        left: 22%;
+        left: 30%;
         margin-right: 1rem;
         margin-left: 10px;
       }
