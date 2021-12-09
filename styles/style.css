@@ -366,10 +366,18 @@
   color: #68bbe5;
 }
 
-.project-card .project-card-overlay {
+.project-card .project-card-links-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-card .project-card-overlay {
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -451,6 +459,15 @@
     height: 1px;
     background-color: #4e53a5;
     width: 200px;
+  }
+  .work .project-card .project-card-links-mobile {
+    display: none;
+    color: red;
+  }
+  .work .project-card .project-card-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

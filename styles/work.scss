@@ -51,8 +51,12 @@
     margin-right: 10px;
     color: $AccentLightBlue;
   }
-  .project-card-overlay {
+  .project-card-links-mobile {
     display: flex;
+    flex-direction: column;
+  }
+  .project-card-overlay {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -116,6 +120,15 @@
         height: 1px;
         background-color: $AccentDarkBlue;
         width: 200px;
+      }
+    }
+    .project-card {
+      .project-card-links-mobile {
+        display: none;
+        color: red;
+      }
+      .project-card-overlay {
+        display: flex;
       }
     }
   }
