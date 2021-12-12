@@ -18,6 +18,13 @@
   }
 }
 
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-card {
   position: relative;
   display: flex;
