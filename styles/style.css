@@ -545,7 +545,7 @@
     position: relative;
   }
   .services h2::after {
-    width: 500px;
+    width: 350px;
   }
 }
 
@@ -760,5 +760,15 @@ body {
   .footer ul {
     margin: 0 auto 2rem auto;
   }
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 800ms ease-in;
+  transition: opacity 800ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
