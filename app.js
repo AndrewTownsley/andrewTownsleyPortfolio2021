@@ -15,7 +15,6 @@ const observer = new IntersectionObserver((entries, observer) => {
         if(!entry.isIntersecting) {
             return;
         }
-        console.log(entry.target);
         entry.target.classList.toggle('appear');
         observer.unobserve(entry.target);
     })

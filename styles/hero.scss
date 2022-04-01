@@ -9,6 +9,10 @@
 }
 
 .hero-text {
+  section {
+    list-style: none;
+    max-width: 500px;
+  }
   h2 {
     font-size: $textM;
     font-weight: 400;
