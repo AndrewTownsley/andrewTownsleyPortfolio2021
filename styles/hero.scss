@@ -44,9 +44,13 @@
       width: 2rem;
     }
   }
+  .mobile-profile-pic-container {
+    width: 45px;
+    height: 64px;
+  }
   header img {
-    width: 90px;
-    height: 128px;
+    width: 45px;
+    height: 64px;
     border-radius: 70px;
   }
   @media (min-width: 700px) {
