@@ -8,6 +8,11 @@
   border: 3px solid #e2008a;
 }
 
+.hero-text section {
+  list-style: none;
+  max-width: 500px;
+}
+
 .hero-text h2 {
   font-size: 1.2rem;
   font-weight: 400;
@@ -55,9 +60,9 @@
 }
 
 .navbar header img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 45px;
+  height: 64px;
+  border-radius: 70px;
 }
 
 @media (min-width: 700px) {
@@ -391,6 +396,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-card .project-card-links-mobile .overlay-btn {
+  background-color: #e2008a;
+  border: 2px solid #e2008a;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.project-card .project-card-links-mobile .overlay-btn:hover {
+  background-color: #c3077b;
 }
 
 .project-card .project-card-overlay {

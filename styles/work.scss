@@ -61,6 +61,19 @@
   .project-card-links-mobile {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    .overlay-btn {
+      background-color: #e2008a;
+      border: 2px solid #e2008a;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      padding: 0.5rem;
+      margin: 0.5rem;
+      &:hover {
+        background-color: #c3077b;
+      }
+    }
   }
   .project-card-overlay {
     display: none;
@@ -72,7 +85,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($color: #101011, $alpha: 1.0);
+    background-color: rgba($color: #101011, $alpha: 1);
     opacity: 0;
     transition: ease-in-out 0.3s;
     h5 {
