@@ -36,8 +36,10 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 4px;
+  outline: 1px solid $AccentDarkBlue;
   h3 {
     margin-bottom: 1rem;
+    z-index: 3;
   }
   ul {
     margin: 1rem 0 2rem 0;
@@ -81,6 +83,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    border-radius: 4px;
     top: 0;
     left: 0;
     width: 100%;
@@ -117,12 +120,17 @@
   width: 168px;
 }
 .pexels-img {
+  margin-top: 2rem;
   width: 255px;
   height: 164px;
 }
 .notes-img {
   width: 255px;
   height: 172px;
+}
+
+.pexels-overlay-text {
+  margin-top: 2rem;
 }
 
 @media (min-width: 750px) {
