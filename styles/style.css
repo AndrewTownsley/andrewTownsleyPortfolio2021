@@ -148,9 +148,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .hero nav ul {
     display: -webkit-box;
@@ -650,6 +650,14 @@ body {
   background-color: #101011;
   color: #fff;
   letter-spacing: 1px;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .main {

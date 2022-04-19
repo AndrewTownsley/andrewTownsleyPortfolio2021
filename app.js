@@ -4,6 +4,14 @@ const mobileMenuCloseBtn = document.getElementById('mobileMenuCloseBtn');
 const fadeIn = document.querySelectorAll('.fade-in')
 const main = document.getElementById('main');
 
+window.onload = function() {
+  Particles.init({
+    selector: '.background',
+    color: '#4e53a5',
+    maxParticles: 60,
+  });
+};
+
 const options = {
     root: null, // null == viewport
     threshold: 0,
