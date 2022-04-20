@@ -54,7 +54,7 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 4px;
-  outline: 1px solid #4e53a5;
+  outline: 1px solid rgba(78, 83, 165, 0.5);
 }
 
 .project-card h3 {
