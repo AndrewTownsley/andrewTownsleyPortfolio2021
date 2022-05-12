@@ -36,7 +36,6 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 4px;
-  outline: 1px solid $AccentDarkBlueBorder;
   h3 {
     margin-bottom: 1rem;
     z-index: 3;
@@ -90,6 +89,7 @@
     height: 100%;
     background-color: rgba($color: #101011, $alpha: 1);
     opacity: 0;
+    outline: 1px solid $AccentLightBlue;
     transition: ease-in-out 0.3s;
     h5 {
       font-size: $textML;

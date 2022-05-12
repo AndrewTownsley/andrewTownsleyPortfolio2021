@@ -94,7 +94,7 @@
       text-align: center;
       padding: 1rem;
       a {
-        color: $TextClrSecondary;
+        color: $TextClrPrimary;
         text-decoration: none;
       }
     }
@@ -113,11 +113,16 @@
 }
 
 @media (min-width: 700px) {
+  .navbar {
+    width: 100vw;
+  }
   .hero {
     height: 100vh;
     nav {
+      background: rgb(226,0,138);
+      background: linear-gradient(162deg, rgba(226,0,138,1) 25%, rgba(0,11,167,1) 55%, rgba(16,16,17,1) 100%);
       display: flex;
-      // justify-content: space-between;
+      // width: 100vw !important;
       justify-content:flex-end;
       ul {
         display: flex;
@@ -131,12 +136,11 @@
         li {
           padding-left: 1rem;
           padding-right: 1rem;
-          border-right: 1px solid $AccentLightBlue;
           a {
-            color: $TextClrSecondary;
-            transition: ease 0.3s;
+            color: $TextClrPrimary;
+            transition: all ease-in-out 0.3s;
             &:hover {
-              color: #fff;
+              transform: scale(1.5);
             }
           }
         }

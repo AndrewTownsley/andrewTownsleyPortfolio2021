@@ -123,7 +123,7 @@
 }
 
 .mobile-menu ul li a {
-  color: #c5c6c7;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -140,10 +140,15 @@
 }
 
 @media (min-width: 700px) {
+  .navbar {
+    width: 100vw;
+  }
   .hero {
     height: 100vh;
   }
   .hero nav {
+    background: #e2008a;
+    background: linear-gradient(162deg, #e2008a 25%, #000ba7 55%, #101011 100%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -170,15 +175,15 @@
   .hero nav ul li {
     padding-left: 1rem;
     padding-right: 1rem;
-    border-right: 1px solid #68bbe5;
   }
   .hero nav ul li a {
-    color: #c5c6c7;
-    -webkit-transition: ease 0.3s;
-    transition: ease 0.3s;
+    color: #fff;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
   }
   .hero nav ul li a:hover {
-    color: #fff;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   .hero nav header {
     display: none;

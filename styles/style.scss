@@ -215,3 +215,14 @@ body {
 .fade-in.appear {
   opacity: 1;
 }
+
+@media (min-width: 700px) {
+  .nav-full {
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0 2rem 2rem 2rem;
+    margin-left: -3rem !important;
+    -webkit-box-shadow: inset 0px -36px 12px -23px #101011; 
+    box-shadow: inset 0px -36px 12px -23px #101011;
+  }
+}
