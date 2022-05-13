@@ -214,6 +214,12 @@
   }
 }
 
+@media (max-width: 950px) and (min-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+}
+
 .skills {
   margin: 4rem 0;
 }
@@ -852,6 +858,12 @@ body {
     margin-left: -3rem !important;
     -webkit-box-shadow: inset 0px -36px 12px -23px #101011;
     box-shadow: inset 0px -36px 12px -23px #101011;
+  }
+}
+
+@media (max-width: 500px) {
+  .background {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

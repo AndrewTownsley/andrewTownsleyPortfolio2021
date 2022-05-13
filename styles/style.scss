@@ -243,3 +243,9 @@ body {
     box-shadow: inset 0px -36px 12px -23px #101011;
   }
 }
+
+@media (max-width: 500px) {
+  .background {
+    display: none;
+  }
+}

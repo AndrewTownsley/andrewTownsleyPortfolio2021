@@ -212,4 +212,10 @@
     padding-top: 3rem;
   }
 }
+
+@media (max-width: 950px) and (min-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+}
 /*# sourceMappingURL=hero.css.map */
