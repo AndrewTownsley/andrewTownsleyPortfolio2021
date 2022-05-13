@@ -151,7 +151,7 @@
   }
   .hero nav {
     background: #e2008a;
-    background: linear-gradient(162deg, #e2008a 25%, #000ba7 55%, #101011 100%);
+    background: linear-gradient(149deg, #e2008a 8%, #2909a2 38%, #000ba7 46%, #101010 72%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
