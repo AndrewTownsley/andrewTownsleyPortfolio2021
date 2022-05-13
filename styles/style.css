@@ -6,6 +6,9 @@
 .hero button {
   margin: 1.5rem 0 2rem 0;
   border: 3px solid #e2008a;
+  box-shadow: 0px 0px 18px 4px rgba(226, 0, 138, 0.3);
+  -moz-box-shadow: 0px 0px 18px 4px rgba(226, 0, 138, 0.3);
+  -webkit-box-shadow: 0px 0px 18px 4px rgba(226, 0, 138, 0.3);
 }
 
 .hero-text section {
@@ -179,12 +182,13 @@
   }
   .hero nav ul li a {
     color: #fff;
+    display: inline-block;
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
   }
   .hero nav ul li a:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
   }
   .hero nav header {
     display: none;
@@ -608,7 +612,7 @@ a {
 }
 
 a:hover {
-  color: #6167d1;
+  color: #51b1ff;
 }
 
 p {
@@ -624,6 +628,13 @@ h1 {
   padding: 2rem 0 1rem 0;
   color: #fff;
   font-weight: 700;
+}
+
+h2 {
+  background: -webkit-linear-gradient(180deg, #00d5ff 0%, #fff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ul {
@@ -647,7 +658,9 @@ ul {
 }
 
 .btn:hover {
-  background-color: #19313d;
+  box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);
+  -moz-box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);
+  -webkit-box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);
 }
 
 body {
@@ -746,14 +759,32 @@ body {
   font-size: 0.9rem;
 }
 
+.footer-icons li a svg {
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  color: #008cff;
+}
+
+.footer-icons li a svg:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
 .footer-icons li a p {
   padding: 10px 0 0 0;
   margin: 0;
-  color: #4e53a5;
+  color: #008cff;
 }
 
-.footer-icons li:hover {
-  background-color: rgba(226, 0, 138, 0.3);
+.footer-icons li a .codewars-icon {
+  fill: #008cff;
+}
+
+.footer-icons li a .codewars-icon:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .footer-icons svg {
