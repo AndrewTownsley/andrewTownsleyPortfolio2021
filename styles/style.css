@@ -630,13 +630,6 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
-  background: -webkit-linear-gradient(180deg, #00d5ff 0%, #fff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 ul {
   list-style: none;
   max-width: 500px;
@@ -718,7 +711,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
-  padding: 0 1rem;
 }
 
 .footer-icons ul {
@@ -774,6 +766,7 @@ body {
   padding: 10px 0 0 0;
   margin: 0;
   color: #008cff;
+  font-size: 12px;
 }
 
 .footer-icons li a .codewars-icon {
