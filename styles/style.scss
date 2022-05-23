@@ -67,7 +67,6 @@ ul {
   cursor: pointer;
   transition: ease 0.3s;
   &:hover {
-    // background-color: #19313d;
     box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);
     -moz-box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);
     -webkit-box-shadow: 0px 0px 18px 12px rgba(226, 0, 138, 0.3);  }
@@ -75,7 +74,6 @@ ul {
 
 body {
   font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  // width: 100%;
   background-color: $BgPrimary;
   color: $TextClrPrimary;
   letter-spacing: 1px;
@@ -120,7 +118,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  // padding: 0 1rem;
   ul {
     display: flex;
     align-items: center;
@@ -159,14 +156,10 @@ body {
         }
       }
     }
-    &:hover {
-      // background-color: rgba(226, 0, 138, 0.3);
-    }
   }
   svg {
     height: 24px;
     width: 24px;
-    // padding: 5px;
   }
 }
 
